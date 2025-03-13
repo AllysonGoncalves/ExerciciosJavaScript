@@ -23,7 +23,7 @@ console.log(`A media = ${media.toFixed(2).replace('.', ',')}`)
 
 /*function calcularMedia(nota1, nota2, nota3) {
   const media = (nota1 + nota2 + nota3) / 3
-return media
+return media// Retorna a média para quem chamou a função,faz com que esse valor seja enviado de volta para onde a função foi chamada.
 } 
   // Leitura das três notas
   const nota1 = parseFloat(prompt("Digite a primeira nota:"))

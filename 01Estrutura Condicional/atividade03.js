@@ -12,8 +12,6 @@ let valorDolar = valorReal * cotacaoRealDolar
 alert('Valor em dolar: U$$ ' + valorDolar.toFixed(2).replace('.', ','))
 
 
-
-
 // Entrada de dados
 /*let valorEmReais = parseFloat(prompt('Informe o valor em reais'))
 let valorDoRealParaDolar = 0.18
