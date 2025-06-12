@@ -4,17 +4,12 @@ Ex: 02.
 Faça um programa para converter um certo valor em dólar para reais (ver cotação do
 dia).*/
 
-// Entrada de dados
-let valorDolar = Number(prompt('Informe o valor do dolar U$$'))
-let cotacaoDolarReal = 5.70
+let valorEmDolares = Number(prompt('Informe o valor em dólares: '));
+let cotacaoDolarReal = 5.54;
 
-// Cálculo da conversão
-let valorReais = valorDolar * cotacaoDolarReal
+let valorEmReais = valorEmDolares * cotacaoDolarReal;
 
-// Exibição do resultado
-alert('Valor em reais: R$ ' + valorReais.toFixed(2).replace('.', ','))
-
-
+alert('Valor em reais: R$ ' + valorEmReais.toFixed(2).replace('.', ','));
 
 
 
